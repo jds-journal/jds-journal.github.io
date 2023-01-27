@@ -2283,7 +2283,7 @@
   \hsize=5pc
   \global\setbox\@ACM@acmcpbox=\vbox{%
     \setlength{\parindent}{\z@}%
-    {\includegraphics[width=\hsize]{acm-jdslogo}\par}%
+    {\includegraphics[width=1.2\hsize]{acm-ims-jds-logo}\par}%
     \scriptsize
     \ifnum\getrefnumber{TotPages}>1\else
       \zrefused{@ACM@acmcpbox@y}%
