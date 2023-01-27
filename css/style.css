@@ -64,6 +64,11 @@ svg {
 	/*border: 1px solid red;*/
 }
 
+testsvg {
+	display: block;
+	/*border: 1px solid red;*/
+}
+
 header {
 	height: 50px;
 	/*background-color: rgba(0,0,0,0.05);*/
@@ -329,6 +334,13 @@ h5 {
 .Section {
 	width: 50%;
 	padding-top: 3em;	
+}
+
+.Section-svg{
+	width: 50%;
+	padding-top: 1em;	
+	padding-left: 2em;
+	padding-right: 0em;
 }
 
 .Section li {

@@ -1,4 +1,4 @@
-let colors = ["#EAEBE4", "#008D4E"]
+let colors = ["#EAEBE4", "#008D4E", "#FFFFFF"]
 
 
 function randomColor() {
