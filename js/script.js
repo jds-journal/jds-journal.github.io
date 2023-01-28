@@ -12,7 +12,7 @@ function renderGraph(element) {
 	let ymax = Math.floor(container.height)
 
 	let xnum = Math.ceil(Math.sqrt(xmax))
-	let ynum = Math.ceil(Math.sqrt(ymax))
+	let ynum = Math.ceil(Math.sqrt(ymax) / 2)
 	let xSize = xmax/xnum
 	let ySize = ymax/ynum
 
