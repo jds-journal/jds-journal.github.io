@@ -50,7 +50,7 @@ table {
 }
 
 html {
-/*	font-family: 'IBM Plex Sans', sans-serif;*/
+	/*	font-family: 'IBM Plex Sans', sans-serif;*/
 	font-family: Helvetica, sans-serif;
 }
 
@@ -75,11 +75,11 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding:  3em 3em 1em 3em;
+	padding: 3em 3em 1em 3em;
 	/*padding: 0em 2em 0em 2em;*/
 	/*border-bottom: 1px solid rgba(0,0,0,0.2);	*/
 	/*background: #fff;*/
-	/*filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.1));*/	
+	/*filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.1));*/
 	/*position: fixed;*/
 }
 
@@ -99,7 +99,8 @@ header .Logos img {
 	filter: grayscale(100%);
 }
 
-#HamburgerMenu, #HamburgerIcon {
+#HamburgerMenu,
+#HamburgerIcon {
 	display: none;
 }
 
@@ -110,7 +111,7 @@ header .Logos img {
 footer {
 	margin-top: 3em;
 	background-color: #3C4043;
-	height:  8em;
+	height: 8em;
 	padding: 3em;
 	display: flex;
 }
@@ -119,12 +120,12 @@ footer img {
 	height: 1.5em;
 	padding-right: 1em;
 	padding-bottom: 1.5em;
-  -webkit-filter: invert(100%); 
-          filter: invert(100%);
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
 }
 
 footer a {
-	color:  rgba(255,255,255,0.75);
+	color: rgba(255, 255, 255, 0.75);
 	font-size: 0.8em;
 	display: block;
 	line-height: 1.6em;
@@ -134,13 +135,13 @@ footer h4 {
 	font-weight: 500;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
-	color:  #fff;
+	color: #fff;
 }
 
 footer h3 {
 	font-size: 1em;
 	font-weight: 500;
-	color:  rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 footer h2 {
@@ -158,11 +159,11 @@ footer .Padding {
 }
 
 .MainContent {
-	padding:  0em 3em 0em 3em;
+	padding: 0em 3em 0em 3em;
 }
 
 .HLBorder {
-	padding:  0em 3em 0em 1.5em;
+	padding: 0em 3em 0em 1.5em;
 	border-left: 1.5em solid #EAEAE3;
 }
 
@@ -200,7 +201,7 @@ footer .Padding {
 
 .Nav li a {
 	text-decoration: none;
-	color: rgba(0,0,0,0.8);
+	color: rgba(0, 0, 0, 0.8);
 }
 
 .Nav li:hover {
@@ -222,11 +223,11 @@ footer .Padding {
 	height: 30px;
 	background-color: red;
 	margin-top: -30px;
-	border:  1px solid blue;
+	border: 1px solid blue;
 }
 
 .ResponsiveNav img {
-	margin-top: 0em;	
+	margin-top: 0em;
 }
 
 h1 {
@@ -255,8 +256,9 @@ h5 {
 	font-size: 0.7em;
 	line-height: 1.5em;
 	margin-bottom: 0.5em;
-	color: rgba(0,0,0,0.6);
+	color: rgba(0, 0, 0, 0.6);
 }
+
 .DoubleRow {
 	height: 3em;
 }
@@ -297,7 +299,7 @@ h5 {
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
 	margin-bottom: 1em;
-/*	max-width: 80%;*/
+	/*	max-width: 80%;*/
 }
 
 .SectionIntro h3 {
@@ -323,8 +325,8 @@ h5 {
 
 .Download {
 	margin-top: 4em;
-	width:  60%;
-	border-bottom: 1px solid #008D4E;	
+	width: 60%;
+	border-bottom: 1px solid #008D4E;
 }
 
 .Download a {
@@ -333,13 +335,13 @@ h5 {
 
 .Section {
 	width: 50%;
-	padding-top: 3em;	
+	padding-top: 3em;
 }
 
 .Section-svg {
 	width: 50%;
-	padding-left: 2em;
-	padding-right: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
 }
 
 .Section-svg svg {
@@ -405,7 +407,7 @@ accent {
 }
 
 .accent {
-	color: #008D4E;	
+	color: #008D4E;
 }
 
 .Clear {
@@ -456,7 +458,7 @@ accent {
 
 .ImageRow img {
 	height: 12em;
-	margin-bottom: 0.5em;	
+	margin-bottom: 0.5em;
 }
 
 .Profile {
@@ -486,7 +488,7 @@ accent {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.TableRow >* {
+.TableRow>* {
 	width: 30%;
 }
 
@@ -500,14 +502,15 @@ accent {
 	margin-bottom: 3em;
 }
 
-.PaperHiglight img, svg {
-		margin-right: 3em;
-		display: block;
-		/*border:  1px solid red;*/
+.PaperHiglight img,
+svg {
+	margin-right: 3em;
+	display: block;
+	/*border:  1px solid red;*/
 }
 
 .PaperHiglight img {
-		height: 12em;
+	height: 12em;
 }
 
 .PaperImage {
@@ -593,7 +596,7 @@ accent {
 	background-color: #F8F8F5;
 	border-top: 0.5em solid #fff;
 	padding: 1em 1em 0em 0em;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .DropdownContent a {
@@ -637,6 +640,7 @@ accent {
 		max-width: 100%;
 		margin-left: 10%;
 	}
+
 	.Container {
 		height: auto;
 		display: flex;
@@ -656,7 +660,7 @@ accent {
 
 
 @media only screen and (max-width: 650px) {
-	header {		
+	header {
 		height: auto;
 		/*min-height: 50px;*/
 		display: flex;
@@ -667,44 +671,53 @@ accent {
 		justify-content: start;
 		flex-direction: row-reverse;
 		width: 100%;
-		background-color: rgba(255,255,255,0.9);
-	}	
+		background-color: rgba(255, 255, 255, 0.9);
+	}
 
 	header img {
 		margin-top: 0px;
 	}
+
 	header .Logos {
 		min-width: 50vw;
 	}
+
 	header .Nav {
 		display: none;
 		margin-top: 25px;
 		margin: 2em 0em -1em 0em;
-				z-index: 1;	
+		z-index: 1;
 	}
+
 	header .Nav a {
 		display: block;
 	}
-	header #HamburgerMenu, #HamburgerIcon {
+
+	header #HamburgerMenu,
+	#HamburgerIcon {
 		display: block;
 	}
+
 	header .Dropdown {
 		display: block;
 		padding-bottom: 1em;
 	}
+
 	header .DropdownContent {
 		margin-left: 1em;
 		display: block;
-		position: relative;		
+		position: relative;
 		margin-bottom: -0.5em;
 		padding-bottom: 0.5em;
 	}
+
 	header .DropdownContent a {
 		margin-bottom: 0.5em;
 		margin-right: 1em;
 		line-height: 2em;
-	}	
-	header .ResponsiveNav input:checked ~ .Nav {
+	}
+
+	header .ResponsiveNav input:checked~.Nav {
 		display: inline-block;
 		padding-top: 10px;
 		height: 600%;
@@ -717,51 +730,63 @@ accent {
 	header .Nav {
 		margin-top: 1em;
 	}
-  header .Nav li {
-    /*display: none;*/
-    display: block;
-    padding-bottom: 0.25em;
-    margin-bottom: 0.5em;
-  }
-	.MainContent {
-		padding:  4em 1.5em 0em 1.5em;
+
+	header .Nav li {
+		/*display: none;*/
+		display: block;
+		padding-bottom: 0.25em;
+		margin-bottom: 0.5em;
 	}
+
+	.MainContent {
+		padding: 4em 1.5em 0em 1.5em;
+	}
+
 	.Breadcrumbs {
 		padding-top: 3em;
 	}
+
 	.Nav {
 		background-color: #fff;
-		box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
 		margin-top: -5em;
 	}
+
 	.HLBorder {
-		padding:  0em 1em 0em 0.5em;
+		padding: 0em 1em 0em 0.5em;
 		border-left: 1.5em solid #EAEAE3;
 	}
+
 	.TableRow {
 		font-size: 0.8em;
 	}
-	.TableRow >* {
+
+	.TableRow>* {
 		width: 23%;
 		margin-right: 5px;
 	}
-  .SectionIntro {
+
+	.SectionIntro {
 		padding-left: 0em;
 		max-width: 90%;
 	}
-  .Section {
+
+	.Section {
 		width: auto;
-		padding-top: 4em;	
+		padding-top: 4em;
 		padding-left: 1em;
 	}
+
 	.Section-svg {
 		padding-left: 1em;
 		width: auto;
 	}
+
 	.Container {
 		margin-top: 2em;
 		display: block;
 	}
+
 	.PaperHiglight {
 		display: block;
 	}
@@ -777,15 +802,19 @@ accent {
 	.PaperHiglight img {
 		width: 100%;
 	}
+
 	.Timeline {
 		padding-top: 5em;
 	}
+
 	footer {
 		padding: 1.5em;
 	}
+
 	footer .Column {
 		min-width: 40px;
 	}
+
 	footer .Padding {
 		display: none;
 	}
