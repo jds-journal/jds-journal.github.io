@@ -11,7 +11,7 @@ function renderGraph(element) {
 	const xmax = Math.floor(container.width)
 	const ymax = Math.floor(container.height)
 
-	const maxCircleSize = 20 
+	const maxCircleSize = 25
 
 	const xnum = Math.ceil(xmax / maxCircleSize)
 	const ynum = Math.ceil(ymax / maxCircleSize)
