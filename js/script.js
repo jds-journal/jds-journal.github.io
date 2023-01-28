@@ -11,20 +11,20 @@ function renderGraph(element) {
 	let xmax = Math.floor(container.width)
 	let ymax = Math.floor(container.height)
 
-	let num = Math.ceil(Math.sqrt(xmax))
-	let dim = xmax/num
+	let xnum = Math.ceil(Math.sqrt(xmax))
+	let ynum = Math.ceil(Math.sqrt(ymax))
+	let xSize = xmax/xnum
+	let ySize = ymax/ynum
 
 	document.getElementById("image-main").innerHTML = "";
-	document.getElementById("image-main").style.height = (dim*12) + "px";
 	
-	for (let i=0; i<num; i++) {
-		for (let j=0; j<num/2; j++) {
-			let size = dim
+	for (let i=0; i<xnum; i++) {
+		for (let j=0; j<ynum; j++) {
 			if (Math.random() < 0) {
-				let coords = [[i*size,j*size],[i*size,j*size+size], [i*size+size,j*size]]
+				let coords = [[i*xSize,j*ySize],[i*xSize,j*ySize+ySize], [i*xSize+xSize,j*ySize]]
 				drawPolygon(coords,randomColor(), "image-main")			
 			} else {
-				drawCircle([size/2+i*size,size/2+j*size], size/2*Math.random(), randomColor(), "image-main")			
+				drawCircle([xSize/2+i*xSize,ySize/2+j*ySize], Math.min(xSize,ySize)/2*Math.random(), randomColor(), "image-main")			
 			}
 		}
 	}  	
@@ -34,9 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	if (document.getElementById("image-main")) {
 		renderGraph(document.getElementById("image-main"));
-		// window.addEventListener('resize', function(event) {
-		// 	renderGraph(document.getElementById("image-main"));
-		// }, true);
+		window.addEventListener('resize', function(event) {
+			renderGraph(document.getElementById("image-main"));
+		}, true);
 	}
 
 }, false);
