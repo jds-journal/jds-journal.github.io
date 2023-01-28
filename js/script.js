@@ -7,21 +7,23 @@ function randomColor() {
 
 function renderGraph(element) {
 
-	let container = element.getBoundingClientRect()
-	let xmax = Math.floor(container.width)
-	let ymax = Math.floor(container.height)
+	const container = element.getBoundingClientRect()
+	const xmax = Math.floor(container.width)
+	const ymax = Math.floor(container.height)
 
-	let xnum = Math.ceil(Math.sqrt(xmax))
-	let ynum = Math.ceil(Math.sqrt(ymax) / 2)
-	let xSize = xmax/xnum
-	let ySize = ymax/ynum
+	const maxCircleSize = 20 
+
+	const xnum = Math.ceil(xmax / maxCircleSize)
+	const ynum = Math.ceil(ymax / maxCircleSize)
+	const xSize = xmax/xnum
+	const ySize = ymax/ynum
 
 	document.getElementById("image-main").innerHTML = "";
 	
 	for (let i=0; i<xnum; i++) {
 		for (let j=0; j<ynum; j++) {
 			if (Math.random() < 0) {
-				let coords = [[i*xSize,j*ySize],[i*xSize,j*ySize+ySize], [i*xSize+xSize,j*ySize]]
+				const coords = [[i*xSize,j*ySize],[i*xSize,j*ySize+ySize], [i*xSize+xSize,j*ySize]]
 				drawPolygon(coords,randomColor(), "image-main")			
 			} else {
 				drawCircle([xSize/2+i*xSize,ySize/2+j*ySize], Math.min(xSize,ySize)/2*Math.random(), randomColor(), "image-main")			
