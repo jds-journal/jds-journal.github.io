@@ -1,6 +1,6 @@
 const issues = {
 	"Volume 1 Issue 1" : [
-		/*{
+		{
 			"title": "Batched Neural Bandits",
 			"abstract": "In many sequential decision-making problems, the individuals are split into several batches and the decision-maker is only allowed to change her policy at the end of batches. These batch problems have a large number of applications, ranging from clinical trials to crowdsourcing. Motivated by this, we study the stochastic contextual bandit problem for general reward distributions under the batched setting. We propose the BatchNeuralUCB algorithm which combines neural networks with optimism to address the exploration-exploitation tradeoff while keeping the total number of batches limited. We study BatchNeuralUCB under both fixed and adaptive batch size settings and prove that it achieves the same regret as the fully sequential version while reducing the number of policy updates considerably. We confirm our theoretical results via simulations on both synthetic and real-world datasets.",
 			"authors": [
@@ -30,7 +30,7 @@ const issues = {
 					"email": "drzhou@cs.ucla.edu"
 				}
 			]
-		},*/
+		},
 		{
 			"title": "Identification and semiparametric efficiency theory of nonignorable missing data with a shadow variable",
 			"abstract": "We consider identification and estimation with an outcome missing not at random (MNAR). We study an identification strategy based on a so-called shadow variable. A shadow variable is assumed to be correlated with the outcome, but independent of the missingness process conditional on the outcome and fully observed covariates. We describe a general condition for nonparametric identification of the full data law under MNAR using a valid shadow variable. Our condition is satisfied by many commonly- used models; moreover, it is imposed on the complete cases, and therefore has testable implications with observed data only. We characterize the semiparametric efficiency bound for the class of regular and asymptotically linear estimators, and derive a closed form for the efficient influence function. We describe a doubly robust and locally efficient estimation method and evaluate its performance on both simulation data and a real data example about home pricing.",
