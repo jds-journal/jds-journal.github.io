@@ -116,13 +116,28 @@ render = function(el, name, articles) {
 		if (i == 2) 
 		{
 			var a = document.createElement('a');
-			a.href = "./files/Fusion_Final.pdf"
+			a.href = "./files/JDS_Issue1_Cover3.pdf"
 			a.setAttribute('target', '_blank');
-			a.title = "Paper";
-			a.appendChild(document.createTextNode("Paper"));
+			a.title = "Cover";
+			a.appendChild(document.createTextNode("Cover "));
 			
   		downloadCTA.appendChild(document.createTextNode(""))
   		downloadCTA.appendChild(a);
+
+  		downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
+
+  		// let downloadImage2 = document.createElement("img");
+			// downloadImage2.setAttribute("src", "./img/download.svg")
+			// downloadCTA.appendChild(downloadImage2)
+
+			var b = document.createElement('a');
+			b.href = "./files/JDS_Issue1_Paper3.pdf"
+			b.setAttribute('target', '_blank');
+			b.title = "Paper";
+			b.appendChild(document.createTextNode("Paper"));
+			
+  		downloadCTA.appendChild(document.createTextNode(""))
+  		downloadCTA.appendChild(b);
 		}
 		else
 		{
