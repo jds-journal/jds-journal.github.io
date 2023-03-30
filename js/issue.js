@@ -113,7 +113,21 @@ render = function(el, name, articles) {
 		download.appendChild(downloadImage)
 
 		let downloadCTA = document.createElement("h3")
-		downloadCTA.appendChild(document.createTextNode("The paper PDF will be available soon"))
+		if (i == 2) 
+		{
+			var a = document.createElement('a');
+			a.href = "./files/Fusion_Final.pdf"
+			a.setAttribute('target', '_blank');
+			a.title = "Paper";
+			a.appendChild(document.createTextNode("Paper"));
+			
+  		downloadCTA.appendChild(document.createTextNode(""))
+  		downloadCTA.appendChild(a);
+		}
+		else
+		{
+			downloadCTA.appendChild(document.createTextNode("The paper PDF will be available soon"))
+		}
 		download.appendChild(downloadCTA)
 
 		details.appendChild(download)
