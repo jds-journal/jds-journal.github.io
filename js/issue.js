@@ -113,7 +113,7 @@ render = function(el, name, articles) {
 		download.appendChild(downloadImage)
 
 		let downloadCTA = document.createElement("h3")
-		downloadCTA.appendChild(document.createTextNode("Download paper"))
+		downloadCTA.appendChild(document.createTextNode("The paper PDF will be available soon"))
 		download.appendChild(downloadCTA)
 
 		details.appendChild(download)
