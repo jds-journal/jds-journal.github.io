@@ -113,6 +113,7 @@ render = function(el, name, articles) {
 		download.appendChild(downloadImage)
 
 		let downloadCTA = document.createElement("h3")
+
 		if (i == 2) 
 		{
 			var a = document.createElement('a');
@@ -139,7 +140,7 @@ render = function(el, name, articles) {
   		downloadCTA.appendChild(document.createTextNode(""))
   		downloadCTA.appendChild(b);
 		}
-		if (i == 4) 
+		else if (i == 4) 
 		{
 			var a = document.createElement('a');
 			a.href = "./files/JDS_Issue1_Cover5.pdf"
