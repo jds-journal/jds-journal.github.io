@@ -114,88 +114,112 @@ render = function(el, name, articles) {
 
 		let downloadCTA = document.createElement("h3")
 
-		if (i == 2) 
+		var a = document.createElement('a');
+		a.href = article.cover_url
+		a.setAttribute('target', '_blank');
+		a.title = "Cover";
+		a.appendChild(document.createTextNode("Cover "));
+
+		var b = document.createElement('a');
+		b.href = article.paper_url
+		b.setAttribute('target', '_blank');
+		b.title = "Paper";
+		b.appendChild(document.createTextNode("Paper"));
+
+		if(article.cover_url !== null && article.cover_url !== '')
 		{
-			var a = document.createElement('a');
-			a.href = "./files/JDS_Issue1_Cover3.pdf"
-			a.setAttribute('target', '_blank');
-			a.title = "Cover";
-			a.appendChild(document.createTextNode("Cover "));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
-  		downloadCTA.appendChild(a);
-
-  		downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
-
-  		// let downloadImage2 = document.createElement("img");
-			// downloadImage2.setAttribute("src", "./img/download.svg")
-			// downloadCTA.appendChild(downloadImage2)
-
-			var b = document.createElement('a');
-			b.href = "./files/JDS_Issue1_Paper3.pdf"
-			b.setAttribute('target', '_blank');
-			b.title = "Paper";
-			b.appendChild(document.createTextNode("Paper"));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
-  		downloadCTA.appendChild(b);
-		}
-		else if (i == 4) 
-		{
-			var a = document.createElement('a');
-			a.href = "./files/JDS_Issue1_Cover5.pdf"
-			a.setAttribute('target', '_blank');
-			a.title = "Cover";
-			a.appendChild(document.createTextNode("Cover "));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
-  		downloadCTA.appendChild(a);
-
-  		downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
-
-  		// let downloadImage2 = document.createElement("img");
-			// downloadImage2.setAttribute("src", "./img/download.svg")
-			// downloadCTA.appendChild(downloadImage2)
-
-			var b = document.createElement('a');
-			b.href = "./files/JDS_Issue1_Paper5.pdf"
-			b.setAttribute('target', '_blank');
-			b.title = "Paper";
-			b.appendChild(document.createTextNode("Paper"));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
-  		downloadCTA.appendChild(b);
-		}
-		else if (i == 5)
-		{
-			var a = document.createElement('a');
-			a.href = "./files/JDS_Issue1_Cover6.pdf"
-			a.setAttribute('target', '_blank');
-			a.title = "Cover";
-			a.appendChild(document.createTextNode("Cover "));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
-  		downloadCTA.appendChild(a);
-
-  		downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
-
-  		// let downloadImage2 = document.createElement("img");
-			// downloadImage2.setAttribute("src", "./img/download.svg")
-			// downloadCTA.appendChild(downloadImage2)
-
-			var b = document.createElement('a');
-			b.href = "./files/JDS_Issue1_Paper6.pdf"
-			b.setAttribute('target', '_blank');
-			b.title = "Paper";
-			b.appendChild(document.createTextNode("Paper"));
-			
-  		downloadCTA.appendChild(document.createTextNode(""))
+			downloadCTA.appendChild(a);
+			downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) ); // add space
+			downloadCTA.appendChild(document.createTextNode(""))
   		downloadCTA.appendChild(b);
 		}
 		else
 		{
 			downloadCTA.appendChild(document.createTextNode("The paper PDF will be available soon"))
 		}
+
+		// if (i == 2) 
+		// {
+		// 	var a = document.createElement('a');
+		// 	a.href = "./files/JDS_Issue1_Cover3.pdf"
+		// 	a.setAttribute('target', '_blank');
+		// 	a.title = "Cover";
+		// 	a.appendChild(document.createTextNode("Cover "));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(a);
+
+  	// 	downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
+
+  	// 	// let downloadImage2 = document.createElement("img");
+		// 	// downloadImage2.setAttribute("src", "./img/download.svg")
+		// 	// downloadCTA.appendChild(downloadImage2)
+
+		// 	var b = document.createElement('a');
+		// 	b.href = "./files/JDS_Issue1_Paper3.pdf"
+		// 	b.setAttribute('target', '_blank');
+		// 	b.title = "Paper";
+		// 	b.appendChild(document.createTextNode("Paper"));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(b);
+		// }
+		// else if (i == 4) 
+		// {
+		// 	var a = document.createElement('a');
+		// 	a.href = "./files/JDS_Issue1_Cover5.pdf"
+		// 	a.setAttribute('target', '_blank');
+		// 	a.title = "Cover";
+		// 	a.appendChild(document.createTextNode("Cover "));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(a);
+
+  	// 	downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
+
+  	// 	// let downloadImage2 = document.createElement("img");
+		// 	// downloadImage2.setAttribute("src", "./img/download.svg")
+		// 	// downloadCTA.appendChild(downloadImage2)
+
+		// 	var b = document.createElement('a');
+		// 	b.href = "./files/JDS_Issue1_Paper5.pdf"
+		// 	b.setAttribute('target', '_blank');
+		// 	b.title = "Paper";
+		// 	b.appendChild(document.createTextNode("Paper"));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(b);
+		// }
+		// else if (i == 5)
+		// {
+		// 	var a = document.createElement('a');
+		// 	a.href = "./files/JDS_Issue1_Cover6.pdf"
+		// 	a.setAttribute('target', '_blank');
+		// 	a.title = "Cover";
+		// 	a.appendChild(document.createTextNode("Cover "));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(a);
+
+  	// 	downloadCTA.appendChild( document.createTextNode( '\u00A0\u00A0\u00A0\u00A0\u00A0' ) );
+
+  	// 	// let downloadImage2 = document.createElement("img");
+		// 	// downloadImage2.setAttribute("src", "./img/download.svg")
+		// 	// downloadCTA.appendChild(downloadImage2)
+
+		// 	var b = document.createElement('a');
+		// 	b.href = "./files/JDS_Issue1_Paper6.pdf"
+		// 	b.setAttribute('target', '_blank');
+		// 	b.title = "Paper";
+		// 	b.appendChild(document.createTextNode("Paper"));
+			
+  	// 	downloadCTA.appendChild(document.createTextNode(""))
+  	// 	downloadCTA.appendChild(b);
+		// }
+		// else
+		// {
+		// 	downloadCTA.appendChild(document.createTextNode("The paper PDF will be available soon"))
+		// }
 		download.appendChild(downloadCTA)
 
 		details.appendChild(download)
