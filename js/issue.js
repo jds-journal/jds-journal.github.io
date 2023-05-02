@@ -123,8 +123,8 @@ render = function(el, name, articles) {
 		var b = document.createElement('a');
 		b.href = article.paper_url
 		b.setAttribute('target', '_blank');
-		b.title = "Paper";
-		b.appendChild(document.createTextNode("Paper"));
+		b.title = "Pre-print";
+		b.appendChild(document.createTextNode("Pre-print"));
 
 		if(article.cover_url !== null && article.cover_url !== '')
 		{
