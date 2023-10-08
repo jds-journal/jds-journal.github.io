@@ -33,39 +33,39 @@ const issues = {
 				}
 			]
 		},
-		{
-			"cover_url": "",
-			"paper_url": "",
-			"title": "Identification and semiparametric efficiency theory of nonignorable missing data with a shadow variable",
-			"abstract": "We consider identification and estimation with an outcome missing not at random (MNAR). We study an identification strategy based on a so-called shadow variable. A shadow variable is assumed to be correlated with the outcome, but independent of the missingness process conditional on the outcome and fully observed covariates. We describe a general condition for nonparametric identification of the full data law under MNAR using a valid shadow variable. Our condition is satisfied by many commonly- used models; moreover, it is imposed on the complete cases, and therefore has testable implications with observed data only. We characterize the semiparametric efficiency bound for the class of regular and asymptotically linear estimators, and derive a closed form for the efficient influence function. We describe a doubly robust and locally efficient estimation method and evaluate its performance on both simulation data and a real data example about home pricing.",
-			"authors": [
-				{
-					"name": "Wang Miao",
-					"affiliation": "Peking University",
-					"email": "mwfy@pku.edu.cn"
-				},
-				{
-					"name": "Lan Liu",
-					"affiliation": "University of Minnesota",
-					"email": "liux3771@umn.edu"
-				},
-				{
-					"name": "Yilin Li",
-					"affiliation": "Peking University",
-					"email": "yilinli@pku.edu.cn"
-				},
-				{
-					"name": "Eric Tchetgen Tchetgen",
-					"affiliation": "University of Pennsylvania",
-					"email": "ett@wharton.upenn.edu"
-				},
-				{
-					"name": "Zhi Geng",
-					"affiliation": "Peking University",
-					"email": "zhigeng@pku.edu.cn"
-				}
-			]
-		},
+		// {
+		// 	"cover_url": "",
+		// 	"paper_url": "",
+		// 	"title": "Identification and semiparametric efficiency theory of nonignorable missing data with a shadow variable",
+		// 	"abstract": "We consider identification and estimation with an outcome missing not at random (MNAR). We study an identification strategy based on a so-called shadow variable. A shadow variable is assumed to be correlated with the outcome, but independent of the missingness process conditional on the outcome and fully observed covariates. We describe a general condition for nonparametric identification of the full data law under MNAR using a valid shadow variable. Our condition is satisfied by many commonly- used models; moreover, it is imposed on the complete cases, and therefore has testable implications with observed data only. We characterize the semiparametric efficiency bound for the class of regular and asymptotically linear estimators, and derive a closed form for the efficient influence function. We describe a doubly robust and locally efficient estimation method and evaluate its performance on both simulation data and a real data example about home pricing.",
+		// 	"authors": [
+		// 		{
+		// 			"name": "Wang Miao",
+		// 			"affiliation": "Peking University",
+		// 			"email": "mwfy@pku.edu.cn"
+		// 		},
+		// 		{
+		// 			"name": "Lan Liu",
+		// 			"affiliation": "University of Minnesota",
+		// 			"email": "liux3771@umn.edu"
+		// 		},
+		// 		{
+		// 			"name": "Yilin Li",
+		// 			"affiliation": "Peking University",
+		// 			"email": "yilinli@pku.edu.cn"
+		// 		},
+		// 		{
+		// 			"name": "Eric Tchetgen Tchetgen",
+		// 			"affiliation": "University of Pennsylvania",
+		// 			"email": "ett@wharton.upenn.edu"
+		// 		},
+		// 		{
+		// 			"name": "Zhi Geng",
+		// 			"affiliation": "Peking University",
+		// 			"email": "zhigeng@pku.edu.cn"
+		// 		}
+		// 	]
+		// },
 		{
 			"cover_url": "./files/JDS_Issue1_Cover3.pdf",
 			"paper_url": "./files/JDS_Issue1_Paper3.pdf",
@@ -99,34 +99,34 @@ const issues = {
 				}
 			]
 		},
-		{
-			"cover_url": "",
-			"paper_url": "",
-			"title": "Optimistic Rates: A Unifying Theory for Interpolation Learning and Regularization in Linear Regression",
-			"abstract": "We study a localized notion of uniform convergence known as an “optimistic rate” (Panchenko 2002; Srebro et al. 2010) for linear regression with Gaussian data. Our refined analysis avoids the hidden constant and logarithmic factor in existing results, which are known to be crucial in high-dimensional settings, especially for understanding interpolation learning. As a special case, our analysis recovers the guarantee from Koehler et al. (2021), which tightly characterizes the population risk of low-norm interpolators under the benign overfitting conditions. Our optimistic rate bound, though, also analyzes predictors with arbitrary training error. This allows us to recover some classical statistical guarantees for ridge and LASSO regression under random designs, and helps us obtain a precise understanding of the excess risk of near-interpolators in the over-parameterized regime.",
-			"authors": [
-				{
-					"name": "Lijia Zhou",
-					"affiliation": "University of Chicago",
-					"email": "zlj@uchicago.edu"
-				},
-				{
-					"name": "Frederic Koehler",
-					"affiliation": "Stanford University",
-					"email": "fkoehler@berkeley.edu"
-				},
-				{
-					"name": "Danica J. Sutherland",
-					"affiliation": "University of British Columbia; Alberta Machine Intelligence Institute",
-					"email": "dsuth@cs.ubc.ca"
-				},
-				{
-					"name": "Nathan Srebro",
-					"affiliation": "Toyota Technological Institute at Chicago",
-					"email": "nati@ttic.edu"
-				}
-			]
-		},
+		// {
+		// 	"cover_url": "",
+		// 	"paper_url": "",
+		// 	"title": "Optimistic Rates: A Unifying Theory for Interpolation Learning and Regularization in Linear Regression",
+		// 	"abstract": "We study a localized notion of uniform convergence known as an “optimistic rate” (Panchenko 2002; Srebro et al. 2010) for linear regression with Gaussian data. Our refined analysis avoids the hidden constant and logarithmic factor in existing results, which are known to be crucial in high-dimensional settings, especially for understanding interpolation learning. As a special case, our analysis recovers the guarantee from Koehler et al. (2021), which tightly characterizes the population risk of low-norm interpolators under the benign overfitting conditions. Our optimistic rate bound, though, also analyzes predictors with arbitrary training error. This allows us to recover some classical statistical guarantees for ridge and LASSO regression under random designs, and helps us obtain a precise understanding of the excess risk of near-interpolators in the over-parameterized regime.",
+		// 	"authors": [
+		// 		{
+		// 			"name": "Lijia Zhou",
+		// 			"affiliation": "University of Chicago",
+		// 			"email": "zlj@uchicago.edu"
+		// 		},
+		// 		{
+		// 			"name": "Frederic Koehler",
+		// 			"affiliation": "Stanford University",
+		// 			"email": "fkoehler@berkeley.edu"
+		// 		},
+		// 		{
+		// 			"name": "Danica J. Sutherland",
+		// 			"affiliation": "University of British Columbia; Alberta Machine Intelligence Institute",
+		// 			"email": "dsuth@cs.ubc.ca"
+		// 		},
+		// 		{
+		// 			"name": "Nathan Srebro",
+		// 			"affiliation": "Toyota Technological Institute at Chicago",
+		// 			"email": "nati@ttic.edu"
+		// 		}
+		// 	]
+		// },
 		{
 			"cover_url": "./files/JDS_Issue1_Cover5.pdf",
 			"paper_url": "./files/JDS_Issue1_Paper5.pdf",
