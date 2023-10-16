@@ -1,8 +1,8 @@
 const issues = {
 	"Volume 1 Issue 1" : [
 		{
-			"cover_url": "",
-			"paper_url": "",
+			"cover_url": "./files/JDS_Issue1_Cover1.pdf",
+			"paper_url": "./files/JDS_Issue1_Paper1.pdf",
 			"title": "Batched Neural Bandits",
 			"abstract": "In many sequential decision-making problems, the individuals are split into several batches and the decision-maker is only allowed to change her policy at the end of batches. These batch problems have a large number of applications, ranging from clinical trials to crowdsourcing. Motivated by this, we study the stochastic contextual bandit problem for general reward distributions under the batched setting. We propose the BatchNeuralUCB algorithm which combines neural networks with optimism to address the exploration-exploitation tradeoff while keeping the total number of batches limited. We study BatchNeuralUCB under both fixed and adaptive batch size settings and prove that it achieves the same regret as the fully sequential version while reducing the number of policy updates considerably. We confirm our theoretical results via simulations on both synthetic and real-world datasets.",
 			"authors": [
