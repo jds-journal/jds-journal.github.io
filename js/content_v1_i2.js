@@ -83,7 +83,7 @@ const issues = {
 					"email": "joecc@umich.edu"
 				},
 				{
-					"name": "Stephen H. Back",
+					"name": "Stephen H. Bach",
 					"affiliation": "Brown University and Snorkel AI",
 					"email": "shoutian@umich.edu"
 				},
