@@ -9,27 +9,27 @@ const issues = {
 				{
 					"name": "Ian Waudby-Smith",
 					"affiliation": "Carnegie Mellon University",
-					"email": "."
+					"email": "ianws@cmu.edu"
 				},
 				{
 					"name": "Lili Wu",
 					"affiliation": "Microsoft",
-					"email": "."
+					"email": "liliwu@microsoft.com"
 				},
 				{
 					"name": "Aaditya Ramdas",
 					"affiliation": "Carnegie Mellon University",
-					"email": "."
+					"email": "aramdas@cmu.edu"
 				},
 				{
 					"name": "Nikos Karampatziakis",
 					"affiliation": "Microsoft",
-					"email": "."
+					"email": "nikosk@microsoft.com"
 				},
 				{
 					"name": "Paul Mineiro",
 					"affiliation": "Microsoft",
-					"email": "."
+					"email": "pmineiro@microsoft.com"
 				}
 			]
 		}
