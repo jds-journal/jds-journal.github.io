@@ -31,76 +31,16 @@
 
 <body>
 
-  <header>
-    <a href="index.html">
-      <div class="Logos">
-        <img src="./img/acm-logo.svg"/>
-        <img src="./img/ims-logo.svg"/>
-        <img src="./img/jds-logo.svg"/>
-      </div>
-    </a>
+  <!-- 1. Container for the header -->
+  <div id="header-container"></div>
 
-    <div class="ResponsiveNav">
-      
-      <img src='./img/hamburger.svg' id="HamburgerIcon"/>
-      <input type="checkbox" id="HamburgerMenu" />
-      
-      <div class="Nav">
-        
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="cfp.html"><li>Call for Papers</li></a>
+  <!-- 2. Load the JavaScript that contains our header-loading function -->
+  <script src="js/header.js"></script>
 
-          <div class="Dropdown">
-            <a href="organization.html"><span>People</span></a>
-            <div class="DropdownContent">
-              <a href="organization.html"><li>Organization</li></a>            
-              <a href="board.html"><li>Editorial Board</li></a>  
-              <li><a href="https://dl.acm.org/journal/jds/contact">Contact Us</a></li>          
-            </div>
-          </div>
-
-          <div class="Dropdown">
-            <a href="authors.html"><span>Authors</span></a>
-            <div class="DropdownContent">
-              <a href="authors.html"><li>Information for Authors</li></a>            
-              <a href="timeline.html"><li>Deadlines and Timeline</li></a>            
-              <a href="paper-template.html"><li>Paper Template</li></a>            
-              <a href="diversity-and-inclusion.html"><li>Diversity and Inclusion</li></a>            
-              <a href="acm-instructions.html"><li>ACM Instructions</li></a>            
-              <a href="submission-website.html"><li>Submission Website</li></a>            
-              <a href="author-feedback.html"><li>Author Feedback</li></a>            
-            </div>
-          </div>
-
-          <div class="Dropdown">
-            <a href="instructions-summary.html"><span>Reviewers</span></a>
-            <div class="DropdownContent">
-              <a href="instructions-summary.html"><li>Instructions Summary</li></a>            
-              <a href="instructions-and-policies.html"><li>Instructions & Policies</li></a>            
-              <a href="senior-editor-instructions.html"><li>Senior Editor Instructions</li></a>            
-            </div>
-          </div>
-
-          <div class="Dropdown">
-            <a href="issues.html"><span>Issues</span></a>
-            <div class="DropdownContent">
-              <a href="issues.html"><li>Volume 1 Issue 1</li></a>            
-              <a href="https://dl.acm.org/journal/jds"><li>JDS Library</li></a>
-            </div>
-          </div>
-
-          <li><a href="submission-website.html">Paper Submission</a></li>
-          
-
-        </ul>
-
-      </div>
-
-    </div>
-
-  </header>
-
+  <!-- 3. Call the function to insert the header into #header-container -->
+  <script>
+    loadHeader('#header-container', 'template/header.html');
+  </script>
 
   <div class="MainContent">
 
